@@ -1,0 +1,66 @@
+html{
+    background: #D6D700;
+    background: -moz-linear-gradient(top, #D6D700 0%, #6C6D00 100%);
+    background: -webkit-linear-gradient(top, #D6D700 0%, #6C6D00 100%);
+    background: linear-gradient(to bottom, #D6D700 0%, #6C6D00 100%);
+    background-attachment: fixed;
+}
+
+body {
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+    word-spacing: 6px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+* {
+    margin: 20px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    font-variant: small-caps;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a, em, br{
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    text-align: justify;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+
+em {
+    color:yellow;
+    background-color: red;
+    border: 2px solid blue;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+button {
+    border: 9px groove #000000;
+    border-radius: 5px;
+    margin: 0px;
+    font-size: 40px;
+}
